@@ -6,7 +6,7 @@ Devido ao meu CI e minha imagem está pública, você consegue utilizar esse con
 
 #Docker
 
-$  docker container run -d --name conversao-temperatura --restart=always -p 8080:80 ghcr.io/claudi0s0uza/conversao-temperatura
+$  docker container run -d --name conversao-temperatura --restart=always -p 8000:8080 ghcr.io/claudi0s0uza/conversao-temperatura
 
 #Kubernetes
 
