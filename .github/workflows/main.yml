@@ -42,6 +42,6 @@ jobs:
       - name: Deploy to Kubernetes cluster
         uses: Azure/k8s-deploy@v1.3
         with: 
-          images: claudi0s0uza/conversao-temperatura:${{ github.sha }} 
+          images: ghcr.io/claudi0s0uza/conversao-temperatura:${{ github.sha }} 
           manifests: |
               k8s/deployment.yaml
