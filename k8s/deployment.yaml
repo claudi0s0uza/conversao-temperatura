@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: conversao-temperatura
-          image: claudi0s0uza/conversao-temperatura
+          image: ghcr.io/claudi0s0uza/conversao-temperatura
           resources:
             limits:
               memory: "128Mi"
